@@ -20,7 +20,7 @@ export const QUICK_REPLY_TYPE_ACTION = 'action';
 
 const instance = axios.create({
   baseURL: 'https://api.line.me',
-  timeout: 9 * 1000,
+  timeout: 19 * 1000,
   headers: {
     'Accept-Encoding': 'gzip, deflate, compress',
   },
