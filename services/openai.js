@@ -13,7 +13,7 @@ export const IMAGE_SIZE_1024 = '1024x1024';
 
 const instance = axios.create({
   baseURL: 'https://api.openai.com',
-  timeout: 19 * 1000,
+  timeout: 60 * 1000,
   headers: {
     'Accept-Encoding': 'gzip, deflate, compress',
   },
